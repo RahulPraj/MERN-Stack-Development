@@ -1,0 +1,873 @@
+body{
+    background-color: #f1f3f6;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.header_top{
+    height: 56px;
+    background-color: #2874f0;
+    
+}
+
+.flip{
+    padding-left: 186px;
+}
+.FlipKart{
+    padding-top:20px ;
+}
+.search{
+    width: 565px;
+}
+
+.span1{
+    font-style: italic;
+    position: relative;
+    top: -10px;
+    font-size: 0.7em;
+}
+
+.Explore{
+    color: #ffff;
+}
+.plus{
+    color: #ffe500;
+}
+div.a-cont{
+    margin-top: 10px;
+    height: 2180px;
+    width: 1505px;
+    
+    padding-left: 0px;
+    padding-right: 0px;
+   
+}
+
+/* 
+footer{
+    height: 332px;
+    /* border: 1px solid blue; 
+    background-color: #172337;
+} */
+
+
+.searchBar{
+    border-radius: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    border-right: none;
+    box-shadow: 2px 2px rgb(104, 104, 128);
+}
+
+.searchBtn{
+    background-color: #ffffff;
+}
+.searchBtn:hover{
+    background-color: #ffffff;
+    border: none;   
+}
+.btn-light{
+    border-radius: 0%;
+}
+.btn-light:hover{
+    background-color: #fff;
+}
+.loginBtn{
+    color: #2874f0;
+    font-weight: bold;
+    background-color: #fff;
+}
+.loginBtn:hover{
+    color: #2874f0;
+}
+.nav-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+}
+.subnav-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    align-content: center;
+}
+.subnav-text:hover{
+    color: #2874f0;
+}
+.nav-link:hover{
+    color: #ffffff;
+}
+.dropdown-toggle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+}
+.navbar-nav .nav-link.show{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+}
+.nav-dropdown-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: medium;
+}
+.nav-item{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+}
+
+.header_bot{
+    height: 170px;
+    /* display: flex; */
+    background-color: #ffff;
+}
+
+.img-fluid {
+    max-width: 55%;
+    height: auto;
+}
+
+.img1{
+    /* width:120px;
+    height: 120px; */
+    /* padding: 40px 8px 12px 22px; */
+    padding-top: 40px;
+    margin-left:35px ;
+
+}
+.text-end {
+    text-align:center !important; 
+    margin: 0px 0px 8px;
+    
+}
+.figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* carousal */
+
+.a_main1{
+    
+    height: 293px;
+    padding: 0px;
+    margin-top: 10px;
+    border-radius: 2px;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    
+}
+.carousel-control-prev-icon{
+    background-image: url(https://static.thenounproject.com/png/627785-200.png);
+}
+.carousel-control-next-icon{
+    background-image: url(https://cdn1.iconfinder.com/data/icons/mixed-17/16/icon_right_rounded-512.png);
+}
+.carousel-inner > .carousel-item > img {
+    display: block;
+    
+    
+}
+.a_main1 .slide{
+    width: 1505px;
+    margin-left: -12px;
+    margin-top: -12px;
+}
+.carouselcontrol-prev {
+    position: absolute;
+    background-color: #ffffff;
+    top: 6em;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 15vh;
+    text-align: center;
+    border: 0;
+    box-shadow: 2px 2px 4px rgb(207 204 204);
+}
+.carouselcontrol-next{
+    right: 0;
+    position: absolute;
+    background-color: #ffffff;
+    top: 6em;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 15vh;
+    text-align: center;
+    border: 0;
+    box-shadow: -2px 2px 4px rgb(207 204 204);
+}
+
+.a_main2{
+    height: 362px;
+    margin-top: 13px;
+    border-top: 1px solid #ebebeb;
+    border-radius: 2px;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+  
+    
+}
+
+/* .a_main2 .card1{
+    width: 230px;
+    height: 378px;
+    border: 1px solid red;
+} */
+
+.a_main2 .card2{
+    width: 1245px;
+    height: 362px;
+    overflow: auto;
+    
+}
+
+.a_main2 .cards{
+    display:flex ;
+    width: 1255px;
+    height: 362px;
+    box-shadow: 0px 3px 2px 2px rgba(0,0,0,0.1);
+}
+.a_main2 .card3{
+    width: 262px;
+    height: 362px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    /* box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.); */
+    /* padding: 4px; */
+    
+    
+}
+
+.a_main2 .card1{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.38px;
+    color: #212121;
+    text-align: center;
+    padding: 28px 10px 124px;
+    align-items: center;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90&quot");
+    width: 258px;
+    height: 362px;
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+}
+
+.media{
+    width: 232px;
+    height: 341px;
+    padding: 25px 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.medImg{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .img2{
+    width: 200px;
+    
+} */
+
+.pr1{
+    width: 202px;
+    height: 19.6px;
+    color: #212121;
+    font-size: 14px;
+    margin: 15px 0px 0px;
+}
+
+.pr2{
+    width: 202px;
+    height: 30.4px;
+    color: #388E3C;
+    font-size: 16px;
+    padding: 8px 0px 0px;
+
+}
+
+.pr3{
+    width: 202px;
+    height: 26.6px;
+    color: #212121;
+    font-size: 14px;
+    padding: 7px 0px 0px;
+    
+}
+
+/* ----------------------------------------- */
+
+.a_main3{
+    
+    margin-top: 15px;
+    border-top: 1px solid #ebebeb;
+   background-color: #fff;
+   border-radius: 2px;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    
+}
+
+.a_main3 .row{
+    /* border: 1px solid blueviolet; */
+    height: 362px;
+    margin: 0px;
+    
+}
+
+/*   
+.a_main3 .raw > div{
+    border: 1px dashed red;
+    
+} */
+ .a_control{
+    width: 4%;
+    opacity: 1;
+    /* background-color: #fff; */
+    height: 30%;
+    margin-top: 125px;
+    box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+    background-color: hsla(0,0%,100%,.98);
+}
+
+.slide .a_control i{
+    color: #212121 ;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+
+
+.carousel-control-next{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+} 
+
+
+.a_main3 .cards{
+    display:flex ;
+    width: 1505px;
+    height: 362px;
+    box-shadow: 0px 3px 2px 2px rgba(0,0,0,0.1);
+}
+
+.a_main3 .food{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.38px;
+    color: #212121;
+    text-align: center;
+    padding: 28px 10px 124px;
+    align-items: center;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90&quot");
+    width: 250px;
+    height: 362px;
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+
+}
+
+.a_main4{
+    
+    margin-top: 15px;
+    border-top: 1px solid #ebebeb;
+   background-color: #fff;
+   border-radius: 2px;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    
+}
+
+.a_main4 .cards{
+    display:flex ;
+    width: 1505px;
+    height: 362px;
+    box-shadow: 0px 3px 2px 2px rgba(0,0,0,0.1);
+}
+
+.a_main4 .rakhi{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.38px;
+    color: #212121;
+    text-align: center;
+    padding: 28px 10px 124px;
+    align-items: center;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-reco/278/278/images/Reco_Ind_Aug_DT3.jpg?q=90&quot");
+    width: 250px;
+    height: 362px;
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+
+}
+
+
+.a_main4 .row{
+    /* border: 1px solid blueviolet; */
+    height: 362px;
+    margin: 0px;
+    
+}
+
+
+ .a_control{
+    width: 4%;
+    opacity: 1;
+    /* background-color: #fff; */
+    height: 30%;
+    margin-top: 125px;
+    box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+    background-color: hsla(0,0%,100%,.98);
+}
+
+.slide .a_control i{
+    color: #212121 ;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+
+
+.carousel-control-next{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.a_main5{
+    
+    margin-top: 15px;
+    border-top: 1px solid #ebebeb;
+   background-color: #fff;
+   border-radius: 2px;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    
+}
+
+.a_main5 .cards{
+    display:flex ;
+    width: 1505px;
+    height: 362px;
+    box-shadow: 0px 3px 2px 2px rgba(0,0,0,0.1);
+}
+
+.a_main5 .home{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.38px;
+    color: #212121;
+    text-align: center;
+    padding: 28px 10px 124px;
+    align-items: center;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/898b527fdf29b17a.jpg?q=90&quot");
+    width: 250px;
+    height: 362px;
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+
+}
+
+
+.a_main5 .row{
+    /* border: 1px solid blueviolet; */
+    height: 362px;
+    margin: 0px;
+    
+}
+
+
+ .a_control{
+    width: 4%;
+    opacity: 1;
+    /* background-color: #fff; */
+    height: 30%;
+    margin-top: 125px;
+    box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+    background-color: hsla(0,0%,100%,.98);
+}
+
+.slide .a_control i{
+    color: #212121 ;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+
+
+.carousel-control-next{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.a_main6{
+    
+    margin-top: 15px;
+    border-top: 1px solid #ebebeb;
+   background-color: #fff;
+   border-radius: 2px;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    
+}
+
+.a_main6 .cards{
+    display:flex ;
+    width: 1505px;
+    height: 362px;
+    box-shadow: 0px 3px 2px 2px rgba(0,0,0,0.1);
+}
+
+.a_main6 .deal{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.38px;
+    color: #212121;
+    text-align: center;
+    padding: 28px 10px 124px;
+    align-items: center;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/86e6d52663901503.jpg?q=90&quot");
+    width: 250px;
+    height: 362px;
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+
+}
+
+
+.a_main6 .row{
+    /* border: 1px solid blueviolet; */
+    height: 362px;
+    margin: 0px;
+    
+}
+
+
+ .a_control{
+    width: 4%;
+    opacity: 1;
+    /* background-color: #fff; */
+    height: 30%;
+    margin-top: 125px;
+    box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+    background-color: hsla(0,0%,100%,.98);
+}
+
+.slide .a_control i{
+    color: #212121 ;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+
+
+.carousel-control-next{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* footer */
+.footer{
+    width: 1505px; ;
+    height: 2655px;
+    margin-top: 25px;
+    margin-left: 8px;
+    padding: 0 25px;
+    color: #878787;
+    box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+    background-color: hsla(0,0%,100%,.98);
+}
+
+.f_footer{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    height: 2633px;
+   
+}
+
+.footer .one{
+    height: 650px;
+    width: 100%;
+    margin: 0px;
+}
+
+.one .col{
+     
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 auto;
+        padding: 15px;
+}
+
+.one .f_col1{
+    height: 640px;
+    width: 1455px;
+    /* padding: 25px; */
+    color: #565656;
+    background-color: #fff;
+    text-align: left;
+}
+
+.f_col1 .stories{
+    color: #848484;
+    font-weight: 500;
+    margin-top: 14px;
+    padding: 14px 0;
+}
+.stories .brand{
+    color: #565656;
+    margin-left: 3px;
+}
+.f_col1 .search{
+    margin: 3px 0;
+    width: 1455px;
+    height: 120px;
+    font-family: Roboto,Arial,sans-serif;
+    
+}
+
+
+.f_col1 .search .top1{
+    color: #848484;
+    text-transform: uppercase;
+    margin-right: 3px;
+}
+.search .flip{
+    padding: 0 5px;
+    border-right: 1px solid #333;
+    font-size: 12px;
+    color: #565656;
+    background-color: #fff;
+    text-align: left;
+
+}
+.flip a{
+    text-decoration: none;
+    
+}
+
+.footer .two{
+    height: 1587px;
+    width: 100%;
+    margin: 0px;
+}
+
+.two .f_col2{
+    height: 1587px;
+    width: 1455px;
+    padding:0px 15px;
+    
+    color: #878787;
+    background-color: #fff;
+    
+}
+
+.f_col2 .flipk{
+    clear: both;
+    line-height: 16px;
+    font-size: 11px;
+    margin: 30px 0 15px;
+}
+
+.flipk h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.flipk h2{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .f_bot{
+    height: 346px;
+    width: 1505px;
+    background-color: #172337;
+    margin-left: -24px;
+    
+    
+}
+
+.f_bot .three{
+    
+    color: #fff;
+    height: 193px;
+    /* margin: 0px; */
+    margin-left: 65px;
+    width: 1353px;
+    padding-top: 40px;
+}
+
+ .bot_col1 .about{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.bot_col1 .f_ab {
+    line-height: 2;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+}
+.three .address{
+    width: 287px;
+    height: 193px;
+}
+.address .f_add{
+    width: 287px;
+    height: 133px;
+    border-left: 1px solid #454d5e;
+    padding: 0 25px;
+    
+}
+
+.f_add .mail{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.f_add .f_ad1{
+    width: 236px;
+    height: 108px;
+    font-style: normal;
+    color: #fff;
+    background-color: #172337;
+}
+.f_add .f_ad2{
+    width: 236px;
+    height: 108px;
+    background-color: #fff;
+    font-size: 12px;
+
+}
+
+.f_ad2 .f_ad3{
+    margin: 0px;
+    padding: 0;
+    line-height: normal;
+}
+
+.f_ad1{
+    font-style: normal;
+    color: #fff;
+    background-color: #172337;
+}
+
+.f_ad3 p{
+    margin-bottom: 0px;
+}
+
+.three .address1{
+    width: 250px;
+    height: 193px;
+}
+
+.address1 .f_add1{
+    width: 250px;
+    height: 169px;
+    border-left: 1px solid #454d5e;
+    padding: 0 25px;
+    
+}
+
+.f_add1 .office{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+    width: 236px;
+    height: 16px;
+}
+
+.f_add1 .f_off1{
+    width: 236px;
+    height: 144px;
+    font-style: normal;
+    color: #fff;
+    background-color: #172337;
+}
+.f_add1 .f_off2{
+    width: 236px;
+    height: 144px;
+    background-color: #fff;
+    font-size: 12px;
+
+}
+
+.f_off2 .f_off3{
+    margin: 0px;
+    padding: 0;
+    line-height: normal;
+}
+
+.f_off1{
+    font-style: normal;
+    color: #fff;
+    background-color: #172337;
+}
+
+.f_off3 p{
+    margin-bottom: 0px;
+    
+}
+
+.footer .final{
+    width: 1505px;
+    height: 73px;
+    margin-left: -24px;
+    background-color: #172337;
+}
+
+.final .f_final{
+    border-top: 1px solid #454d5e;
+    padding: 25px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #172337;
+}
+
+.f_final .seller{
+    width: 124px;
+    height: 20px;
+    font-size: 14px;
+}
+
+.seller .f_seller{
+    color: #fff;
+    margin-left: 8px;
+   
+}
+
+.f_seller1{
+    color: #fff;
+}
+

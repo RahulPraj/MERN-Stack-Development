@@ -1,0 +1,14 @@
+<%- include('./partials/header') %>
+    <h1 class="head">Edit a  blog</h1>
+    <form class="form" action="/blogs/<%=foundComment.id%>?_method=PATCH" method="POST">
+        <section>
+            <label for="commnent">Comment</label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="4" ><%=foundComment.comment%></textarea>
+        </section>
+
+        <button type="submit">edit Blog</button>
+    </form>
+
+
+<%- include('./partials/footer') %>

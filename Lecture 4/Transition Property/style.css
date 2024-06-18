@@ -1,0 +1,52 @@
+ /* .box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid black;
+    i want the chnage to be smooth
+    transition-duration: 3s;
+    kis specific change dekhna chate hn 
+    transition-property: border-radius;
+
+} */
+
+/* .box:hover{
+    border-radius: 50%;
+    background-color: brown;
+}  */
+
+/* ------------------------------------------- */
+
+.parent{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.parent:hover .child{
+    width: 80vw;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    transition-duration: 4s;
+    /* kitne time wait krne ke baad chalega */
+    transition-delay: 3s;
+}
+.child-1{
+    background-color: palegoldenrod;
+    transition-timing-function: linear;  
+}
+.child-2{
+    background-color: palegreen;
+    transition-timing-function: ease-in;
+}
+.child-3{
+    background-color: paleturquoise;
+    transition-timing-function: ease-out;
+}
+.child-4{
+    background-color: palevioletred;
+    transition-timing-function: ease-in-out;
+}

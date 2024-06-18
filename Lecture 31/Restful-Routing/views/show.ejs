@@ -1,0 +1,14 @@
+<%- include('./partials/header') %>
+
+<h1 class="head">show particular blog</h1>
+<div id="showw">
+    <!-- <h1><%= foundComment.id%></h1> -->
+        <h2><%= foundComment.author%></h2>
+        <p><%= foundComment.comment%></p>
+        <p>
+            <form  action="/blogs/<%=foundComment.id%>?_method=DELETE" method="POST">
+                <button type="submit">Delete</button>
+            </form>
+        </p>
+</div>
+<%- include('./partials/footer') %>

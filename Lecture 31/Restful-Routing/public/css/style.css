@@ -1,0 +1,117 @@
+body{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+.head{
+    text-align: center;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    
+    gap: 10px;
+}
+.container{
+    width: 300px;
+    height: 350px;
+    border: 0px solid rgb(251, 251, 251);
+    background-image: linear-gradient(to bottom, #d0cfd4, #d0d0d4, #d0d1d4, #d0d1d3, #d1d2d3);
+    border-radius: 10px;
+    margin: 20px 0;
+    padding-top: 50px ;
+    font-size: 20px;
+    
+}
+h1{
+    text-align: center;
+    
+}
+.container:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+p,h2{
+    font-size: 24px;
+    text-align: center;
+    /* font-size: medium; */
+    
+}
+
+.form{
+    width: 380px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 0px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: screen;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 15px;
+
+}
+input[type='text']{
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+input[type='number']{
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+textarea{
+    border-radius: 5px;
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: #d0d0d4;
+    
+}
+
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.153) 0px 3px 3px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.container a:hover{
+    text-shadow: rgba(0, 0, 0, 0.589) 0px 3px 8px;
+    
+}
+
+
+#showw{
+    width: 380px;
+    margin: 20px auto;
+    padding-top: 20px;
+    border: 0px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: screen;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 15px;
+}

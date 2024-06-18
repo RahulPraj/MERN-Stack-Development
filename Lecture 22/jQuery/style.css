@@ -1,0 +1,15 @@
+.first{
+    font-size: 50px;
+    color: red;
+}
+
+.second{
+    background-color: purple;
+    text-decoration: line-through;
+}
+
+#div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}

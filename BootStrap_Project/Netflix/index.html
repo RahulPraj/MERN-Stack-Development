@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Netflix</title>
+    <link rel="icon" href="./images/Netflix_2015_logo.svg" type="image/icon type">
+    
+    <!-- font Awsome -->
+    <script src="https://kit.fontawesome.com/842c5d4a30.js" crossorigin="anonymous"></script>
+    <!-- link BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header_top container-fluid  ">
+          <div class="deafult-gradient" style="background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);"></div>
+            <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong   ">
+                <div class="container-fluid nav ">
+                  <a class="navbar-brand ms-2" href="#">
+                    <img src="./Images/Netflix_2015_logo.svg" width="148px" height="40px" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+                    <form class="d-flex" role="search">
+                      <div class="dropdown " >
+                        <button class="btn btn-secondary dropdown-toggle btn btn-dark btn-outline-white  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa-solid fa-globe" style="color: #fafcff;"></i>English
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Hindi</a></li>
+                        </ul>
+                      </div>
+                      <button class="btn btn-danger ms-2" type="submit">Sign In </button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+        <div class="container-fluid headBottom">
+          <div class="headBottom1">
+            <div class="headBottom2">
+                <img src="./Images/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_large.jpg" width="1519px"  height="875px" alt="">
+                <div class="deafult-gradient" style="background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);"></div>
+            </div>
+          </div>
+          <div class="headBottom-heading">
+            <div>
+              <h1 class="main-heading">Unlimited movies, TV shows and more</h1>
+              <p class="sub-heading">Watch anywhere. Cancel anytime.</p>
+              <div class="headBottom-heading1">
+                 <div>
+                  <form action="" method="post">
+                      <h3 class="sub-heading1">Ready to watch? Enter your email to create or restart your membership.</h3>
+                      <div class="sub-heading2">
+                        <div class="sub-heading2-part">
+                          <label for="email" class="email-heading">Email Address</label>
+                          <div class="">
+                            <input type="text" autocomplete = "email" minlength="5" maxlength="50" name="email" class="input-text">
+                            <div class="full-box"></div>
+                          </div>
+                        </div>
+                        <button type="button" class="btn btn-danger button-heading">Get Started</button>
+                        
+                      </div>
+                      
+                  </form>
+                  <button type="button " class="btn btn-danger button-heading movie"><a href="../movie-searching/index.html" target="_blank" >Movie Search</a></button>
+                 </div>
+                 
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+    
+  </header>
+
+    <!-- main -->
+  <div class="container-fluid main-start">
+
+    <div class="container-fluid  main-start1">
+      <div class="main-box">
+        <div class="main-box1">
+          <h2 class="heading1">Enjoy on your TV</h2>
+          <p class="heading2">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+          <div>
+            <div class="partition"></div>
+          </div>
+        </div>
+        <div class="main-box2">
+          <div class="box-tv">
+            <div class="tv-sizing">
+              <img src="./Images/tv.png" class="tv-image" width="574px" height="434px" alt="">
+              <div class="tv-video">
+                <video src="./video/video-tv-in-0819.m4v" autoplay playsinline muted loop class="box-video" width="419px" height="236px"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid  main-start2">
+      <div class="main-box direction-change">
+        <div class="main-box1">
+          <h2 class="heading1">Download your shows to watch offline</h2>
+          <p class="heading2">Save your favourites easily and always have something to watch.</p>
+          <div>
+            <div class="partition"></div>
+          </div>
+        </div>
+        <div class="main-box2">
+          <div class="box-tv">
+            <div class="tv-sizing">
+              <img src="./Images/mobile-0819.jpg" class="tv-image" width="574px" height="434px" alt="">
+              <div class="mobile-video">
+                <div class="mobile-image">
+                  <img src="./Images/boxshot.png"  width="57px" height="84px" alt="">
+                </div>
+                <div class="stranger">
+                  <div class="stranger-heading">Stranger Things</div>
+                  <div class="stranger-download">Downloading...</div>
+                </div>
+                <div class="loading"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid  main-start3">
+      <div class="main-box">
+        <div class="main-box1">
+          <h2 class="heading1">Watch everywhere</h2>
+          <p class="heading2">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+          <div>
+            <div class="partition"></div>
+          </div>
+        </div>
+        <div class="main-box2">
+          <div class="box-tv">
+            <div class="tv-sizing">
+              <img src="./Images/device-pile-in.png" class="tv2-image" width="574px" height="434px" alt="">
+             
+                <video src="./video/video-devices-in.m4v" autoplay playsinline muted loop class="box2-video" width="419px" height="236px"></video>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid  main-start4">
+      <div class="main-box direction-change">
+        <div class="main-box1">
+          <h2 class="heading1">Create profiles for kids</h2>
+          <p class="heading2">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+          <div>
+            <div class="partition"></div>
+          </div>
+        </div>
+        <div class="main-box2">
+          <div class="box-tv">
+            <div class="tv-sizing">
+              <img src="./Images/child.png" class="tv-image" width="574px" height="434px" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid  main-start5">
+      <div class="main1 direction-change">
+        <div class="main2">
+          <h1 class="Frequently">Frequently Asked Questions</h1>
+          <div class="list-ques"></div>
+          <div class="questions">
+            <div class="question">
+              <input type="checkbox" name="" id="q1">
+              <label class="header" for = "q1">
+                What is Nerflix?
+                <img src="./Images/plus.png" alt="">
+
+              </label>
+              <div class="content">
+                Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+                <br>
+                <br>
+                You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+
+              </div>
+            </div>
+
+            <div class="question">
+              <input type="checkbox" name="" id="q2">
+              <label class="header" for = "q2">
+                How much does Netflix cost?
+                <img src="./Images/plus.png" alt="">
+
+              </label>
+              <div class="content">
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+              </div>
+            </div>
+
+
+            <div class="question">
+              <input type="checkbox" name="" id="q3">
+              <label class="header" for = "q3">
+                Where can I watch?
+                <img src="./Images/plus.png" alt="">
+
+              </label>
+              <div class="content">
+                Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.                <br>
+                <br>
+                You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+              </div>
+            </div>
+
+
+            <div class="question">
+              <input type="checkbox" name="" id="q4">
+              <label class="header" for = "q4">
+                How do I cancel?
+                <img src="./Images/plus.png" alt="">
+
+              </label>
+              <div class="content">
+                Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+              </div>
+            </div>
+
+
+            <div class="question">
+              <input type="checkbox" name="" id="q5">
+              <label class="header" for = "q5">
+                What can I watch on Netflix?
+                <img src="./Images/plus.png" alt="">
+
+              </label>
+              <div class="content">
+                Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+              </div>
+            </div>
+
+            <div class="question">
+              <input type="checkbox" name="" id="q6">
+              <label class="header" for = "q6">
+                Is Netflix good for kids?
+                <img src="./Images/plus.png" alt="">
+
+              </label>
+              <div class="content">
+                Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+              </div>
+            </div>
+          </div> 
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- footer -->
+  <div class="container-fluid footer-start">
+    <div class="footer-box">
+      <div class="footer-heading">Questions? Call 
+        <a href="#">000-800-919-1694</a>
+      </div>
+      <div class="heading-list">
+        <div class="grid-list">
+          <ul class="grid-item-list">
+            <li class="items-footer">
+              <a href="#">FAQ</a>
+            </li>
+            <li class="items-footer">
+              <a href="#">Help Centre</a>
+            </li>
+            <li class="items-footer">
+              <a href="#">Account</a>
+            </li>
+            <li class="items-footer">
+              <a href="#">Media Centre</a>
+            </li>
+            <li class="items-footer">
+              <a href="#">Investor Relations</a>
+            </li>
+            <li class="items-footer"><a href="#">Jobs</a></li>
+            <li class="items-footer"><a href="#">Ways to Watch</a></li>
+            <li class="items-footer"><a href="#">Terms of Use</a></li>
+            <li class="items-footer"><a href="">Privacy</a></li>
+            <li class="items-footer"> <a href="#">Cookie Preferences</a></li>
+            <li class="items-footer"><a href="#">Corporate Information</a></li>
+            <li class="items-footer"><a href="#">Contact Us</a></li>
+            <li class="items-footer"><a href="#">Speed Test</a></li>
+            <li class="items-footer"><a href="#">Legal Notices</a></li>
+            <li class="items-footer"><a href="#">Only on Netflix</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-button">
+        <div class="dropdown">
+          <button class="btn btn-secondary btn btn-dark btn-outline-white new-butt dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="./Images/globe.png" width="16px" height="16px" alt="">
+           English
+          </button>
+          <ul class="dropdown-menu list">
+            <li><a class="dropdown-item " href="#">English</a></li>
+            <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <p class="footer-end">Netflix India</p>
+    </div>
+
+  </div>
+
+    
+      
+    
+
+
+
+
+
+
+ <!-- BootStrap script -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

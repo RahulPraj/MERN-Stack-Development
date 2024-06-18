@@ -1,0 +1,13 @@
+<%- include('./partials/header') %>
+<h1 class="head">Book</h1>
+<div id="showw"> 
+    <h1><%= newBook.id %></h1>
+    <h2>Title: <%= newBook.title %></h2>
+    <p>Book: <%= newBook.genre %></p>
+    <p>Units: <%= newBook.units %></p>
+    <p><a href="/books/<%= newBook.id %>/edit">Edit</a></p>
+   
+</div>
+    
+    
+<%- include('./partials/footer') %>

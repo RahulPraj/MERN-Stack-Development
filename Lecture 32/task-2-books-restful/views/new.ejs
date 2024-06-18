@@ -1,0 +1,21 @@
+<%- include('./partials/header') %>
+    <h1 class="head">New Books</h1>
+    <form class="edit" action="/books" method="post">
+        <section>
+            <label for="title">Title:</label>
+            <input type="text" name="title" id="title">
+        </section>
+        <section>
+            <label for="genre">Genre:</label>
+            <textarea name="genre" id="genre" cols="30" rows="3"></textarea>
+        </section>
+        
+        <section>
+            <label for="units">Units:</label>
+            <input type="number" name="units" id="units">
+        </section>
+        
+        <button type="submit">Add Book</button>
+    </form>
+    
+<%- include('./partials/footer') %>

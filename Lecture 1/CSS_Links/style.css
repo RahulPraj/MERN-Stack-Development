@@ -1,0 +1,9 @@
+h2{
+    border-radius: 25px;
+    color: greenyellow;
+    background-color: rebeccapurple;
+}
+span{
+    color: brown;
+    border: 10px dotted black;
+}

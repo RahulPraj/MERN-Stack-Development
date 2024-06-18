@@ -1,0 +1,42 @@
+/* discendent combinator */
+/* it is space seperated */
+
+div p{
+    color: blue;
+}
+
+div span em {
+    border: 2px solid black;
+}
+
+div em{
+    background-color: aquamarine;
+}
+
+/* child combinator */
+/* immideate after his parent and symbol is > */
+
+article > p {
+    background-color: bisque;
+
+}
+
+/* apply both properties of combinatior */
+
+article > p span{
+    border: 2px solid orange;
+}
+
+/* adjacent sibling combinator */
+/* next to the main element and its symbol is + */
+
+article > h1+p{
+    font-size: 30px;
+}
+
+/* general sibling  */
+/* right side me jitna bhi hai sbko select karlo and symbol is ~(tild) */
+
+div > h1~P{
+    font-size: 40px;
+}

@@ -1,0 +1,370 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.rahul{
+    background-image: url('./media/sky.jpg');
+    width: 100%;
+    height: 100vh;
+    
+    background-size: cover;
+}
+
+.highway{
+    background-image: url('./media/road.jpg');
+    height: 200px;
+    width: 200%;
+    position: absolute;
+    bottom: 0;
+    background-repeat: repeat;
+    animation-name: highway;
+    animation-duration: 800ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+
+}
+
+@keyframes highway {
+    
+    100%{
+        transform: translateX(-1000px);
+    }
+}
+
+.city{
+    background-image: url(./media/city.png);
+    height: 250px;
+    width: 200%;
+    position: absolute;
+    bottom: 200px;
+    background-repeat: repeat;
+    animation-name: city;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes city {
+    
+    100%{
+        transform: translateX(-1000px);
+    }
+}
+
+.car{
+    width: 500px;
+    position: absolute;
+    bottom: 45px;
+    left: 35%;
+    animation-name: car;
+    animation-timing-function: linear;
+    animation-duration: 0.4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+.car img{
+    width: 100%;
+}
+
+@keyframes car {
+    0%{
+        transform: translateY(0px);
+    }
+
+    100%{
+        transform: translateY(3px);
+        
+    }
+}
+
+.wheel{
+    position: absolute;
+    bottom: 72px;
+    left: 30%;
+    overflow: visible;
+
+}
+
+.wheel img{
+    width: 75px;
+    height: 75px;
+    animation-name: wheel;
+    animation-timing-function: linear;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+
+}
+
+.back-wheel{
+    position: absolute;
+    bottom: 0;
+    left: 405px;
+}
+
+.front-wheel{
+    position: absolute;
+    bottom: 0;
+    left: 165px;
+}
+
+@keyframes wheel {
+
+    100%{
+        transform: rotate(360deg) translateY(2px);
+    }
+    
+}
+
+
+.rahul .hulk {
+    position: relative;
+    bottom: 50px;
+    left: 1200px;
+    animation-name: hulk;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes hulk {
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(430px);
+    }
+
+    80%{
+        
+        transform: translateY(430px);
+        
+    }
+    98%{
+        transform: translateY(430px);
+    }
+    100%{
+        transform: translateY(390px) translateX(1110px) rotate(360deg) ;
+        
+    }
+}
+
+.rahul .thor {
+   
+    
+    animation-name: thor1;
+    animation-timing-function: ease-out;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes thor1 {
+    0%{
+        transform: translateX(50px);
+    }
+
+    100%{
+        transform: translateX(500px);
+    }
+}
+
+.thor :hover .iron{
+   animation-play-state: running ;
+    
+}
+@keyframes thunder {
+    0%{
+        transform: translateY(10px);
+        
+    }
+    100%{
+        transform: translateY(30px);
+    }
+}
+.rahul .thunder{
+    position: absolute;
+    top: 1px;
+    left: 1070px;
+    animation-name: thunder;
+    animation-timing-function: linear;
+    animation-duration: 880ms;
+    
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+@keyframes thunder {
+    0%{
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+
+    100%{
+        transform: translateY(100px);
+    }
+    
+}
+
+.rahul .thunder1{
+    position: absolute;
+    bottom: 440px;
+    left: 355px;
+    animation-name: thunder1;
+    animation-timing-function: linear;
+    animation-duration: 850ms;
+    animation-delay: 3s;
+    opacity: 0;
+   
+    
+}
+@keyframes thunder1 {
+    0%{
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+    100%{
+        transform: translateY(-280px);
+    }
+    
+}
+
+.rahul .iron{
+    position: absolute;
+    bottom: 500px;
+    left: 750px;
+    
+    animation-name: iron1;
+    animation-timing-function: linear;
+    animation-duration: 0.4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes iron1 {
+    0%{
+        transform: translateY(0px);
+        
+    }
+
+    100%{
+        transform: translateY(10px);
+        
+        
+    }
+}
+
+ .rahul .blast{
+    position: absolute;
+    bottom: 450px;
+    left: 880px;
+    animation-name: blast1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+} 
+
+@keyframes blast1 {
+    0%{
+        transform:  translateY(0px) translatex(0px);
+        opacity: 100%;
+
+    }
+    25%{
+        transform: translateY(190px) translateX(200px);
+    }
+    50%{
+        transform: translatey(220px) translateX(230px);
+    }
+    75%{
+        transform: translatey(225px) translateX(240px) ;
+    }
+    100%{
+        transform: translatey(230px) translateX(250px) ;
+        
+    }
+} 
+
+.rahul .expostion{
+    position: absolute;
+    bottom: 200px;
+    left: 1170px;
+    animation-name: expostion;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+    animation-delay: 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+} 
+@keyframes expostion {
+
+    0%{
+        transform: scalex(2) scaleY(2);
+
+        opacity: 100%;
+    }
+    50%{
+        transform: scalex(2) scaley(2);
+    }
+    100%{
+        
+            transform: scalex(0) scaleY(0);
+    
+            opacity: 100%;
+        
+    }
+}
+
+.spider{
+    /* idth: 500px;w */
+    position: absolute;
+    bottom: 210px;
+    left: 50%;
+    animation-name: spider;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-delay: 4.2s;
+    
+}
+
+
+@keyframes spider {
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+
+    25%{
+        transform: translateX(50px) translateY(-50px);
+    }
+
+    50%{
+        transform: translateX(200px) translateY(-50px);
+    }
+
+    75%{
+        transform: translateX(300px) translateY(-50px);
+    }
+    100%{
+        transform: translateX(400px) translateY(-50px);
+    }
+
+    
+}
+
+
+
+

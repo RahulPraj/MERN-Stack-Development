@@ -1,0 +1,11 @@
+
+
+/* real world use case */
+/* here we giving a class who is not present in html h1 tag */
+
+.head{
+    background-color: aquamarine;
+    font-size: 80px;
+    color: brown;
+    font-weight:700;
+}

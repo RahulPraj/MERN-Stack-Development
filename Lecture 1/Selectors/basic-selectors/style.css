@@ -1,0 +1,32 @@
+/* universal selector */
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 5px solid black; */
+}
+
+/* element selector */
+p{
+    color: brown;
+}
+/* class selector */
+.prajapati{
+    color: red;
+    background-color: blue;
+    
+}
+/* Id selector */
+#prajapati{
+    color: bisque;
+    background-color: brown;
+}
+
+#special{
+    border: 2px solid rebeccapurple;
+}
+/* Attribute selector */
+input[type = "text"]
+{
+    background-color: blueviolet;
+    color: #000;
+}

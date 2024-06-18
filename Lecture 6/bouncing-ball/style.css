@@ -1,0 +1,36 @@
+.row{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    
+    background: linear-gradient(yellow,green);
+    
+    border: 1px solid green;
+    
+}
+
+.row:hover{
+   animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-direction: alternate; */
+    animation-name: ball;
+    animation-duration: 2s;
+}
+
+
+@keyframes ball {
+
+    0%{
+        transform: translateY(10px) rotate(0deg);
+        
+    }
+
+    50%{
+        transform: translateY(700px) rotate(180deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(360deg);
+    }
+}
+

@@ -1,0 +1,150 @@
+div{
+    /* width: 300px; */
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 10px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+/* @media print and (width:800px)
+{
+    h1{
+        font-size: 40px;
+        color: aqua;
+    }
+} */
+
+/* screen */
+
+/* @media screen and (width:800px)
+{
+    h1{
+        font-size: 40px;
+        color: aqua;
+    }
+} */
+
+/* for all devices */
+/* @media all and (width:800px)
+{
+    h1{
+        font-size: 40px;
+        color: aqua;
+    }
+} */
+
+/* @media screen and (min-width:800px)
+{
+    h1{
+        font-size: 40px;
+        color: aqua;
+    }
+
+    p{
+        background-color: burlywood;
+    }
+} */
+
+/* orientation ->potrait */
+
+ /* @media screen and (orientation:potrait), (max-width:800px)
+{
+    h1{
+        font-size: 40px;
+        color: aqua;
+    }
+
+    p{
+        background-color: burlywood;
+    }
+}  */
+
+/* orientation ->landscape */
+/* @media screen and (orientation:landscape), (max-height:800px)
+{
+    h1{
+        font-size: 40px;
+        color: aqua;
+    }
+
+    p{
+        background-color: burlywood;
+    }
+}  */
+
+
+/* --------------------------------------------------------------- */
+/* important order 1 -> max width  */
+
+
+/* @media screen  and (max-width:1200px) {
+    
+        h1{
+            font-size: 40px;
+            color: aqua;
+        }
+    
+}
+@media screen  and (max-width:991px) {
+    
+    h1{
+        font-size: 40px;
+        color: rgb(37, 211, 31);
+    }
+
+}
+@media screen  and (max-width:765px) {
+    
+    h1{
+        font-size: 40px;
+        color: rgb(14, 62, 173);
+    }
+
+}
+@media screen  and (max-width:576px) {
+    
+    h1{
+        font-size: 40px;
+        color: rgb(101, 18, 75);
+    }
+
+} */
+
+/* important order 2 -> min-width */
+@media screen  and (max-width:576px) {
+    
+    h1{
+        font-size: 40px;
+        color: aqua;
+    }
+
+}
+@media screen  and (max-width:765px) {
+
+h1{
+    font-size: 40px;
+    color: rgb(37, 211, 31);
+}
+
+}
+@media screen  and (max-width:991px) {
+
+h1{
+    font-size: 40px;
+    color: rgb(14, 62, 173);
+}
+
+}
+@media screen  and (max-width:1200px) {
+
+h1{
+    font-size: 40px;
+    color: rgb(101, 18, 75);
+}
+
+}

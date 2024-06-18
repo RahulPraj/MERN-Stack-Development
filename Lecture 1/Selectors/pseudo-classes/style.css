@@ -1,0 +1,74 @@
+/* hover */
+
+span{
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+span:hover{
+    color: lightgreen;
+    background-color: darkred;
+    border: 2px solid yellow;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+/* Active state */
+div {
+    color: cornflowerblue;
+    border: 2px solid red;
+}
+
+div:active{
+    color: bisque;
+    border-radius: 5px;
+    font-size: 30px;
+    border: 5px solid black;
+}
+
+/* focus */
+
+button:focus{
+    color: white;
+    background-color: blue;
+    font-size: 30px;
+}
+/* if we want to select random elements  */
+/* first-child */
+
+/* li:first-child{
+    color: blue;
+    font-size: 30px;
+}
+
+ last-child -> selecting last child
+
+li:last-child{
+    background-color: brown;
+    font-size: 25px;
+}
+
+/* nth-of-type kisi bhi element pr property lgani ho 
+li:nth-of-type(5)
+{
+    border: 2px solid black;
+} */
+/* 
+li:nth-of-type(2n+3)
+{
+    border: 2px solid red;
+} 
+*/
+
+li:nth-of-type(even)
+{
+    border: 2px solid blue;
+}
+
+li:nth-of-type(odd)
+{
+    color: red;
+    background-color: darkcyan;
+}

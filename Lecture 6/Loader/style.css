@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    overflow: hidden;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+.row{
+    width: 150px;
+    height: 150px;
+    border-top: 15px solid green;
+    border-right: 15px solid red;
+    border-bottom: 15px solid blue;
+    border-left: 15px solid yellow ;
+    margin: 20px auto;
+    animation-duration: 900ms;
+    border-radius: 50%;
+    animation-name: rotate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+     
+
+}
+
+.row:hover{
+    animation-play-state: p;
+}
+
+@keyframes rotate {
+    0%{
+        transform: translateY(10px) rotate(0deg);
+        
+    }
+
+    50%{
+        transform: translateY(700px) rotate(180deg);
+    }
+    100%{
+        transform: translateY(50px) rotate(360deg);
+    }
+    
+}

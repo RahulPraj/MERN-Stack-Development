@@ -1,0 +1,11 @@
+<%- include('./partials/header') %>
+    <h1 class="head">Edit Book</h1>
+    <form class="newbook" action="/books/<%= newBook.id %>?_method=PATCH" method="post">
+        <section>
+            <label for="units">Unit:</label>
+            <input type="number" name="units" id="units">
+        </section>
+        <button type="submit">Edit Book</button>
+    </form>
+
+<%- include('./partials/footer')%>
