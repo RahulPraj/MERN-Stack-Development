@@ -59,7 +59,7 @@ app.get('/blogs',(req,res)=>{
 })
 
 // task2 -> show just a form for adding new blog
-app.get('/blogs/new',(req, res)=>{
+app.get('/blog/new',(req, res)=>{
     res.render('new'); //no slash is given because we just rendering the page
 })
 
